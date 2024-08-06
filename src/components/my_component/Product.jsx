@@ -5,6 +5,14 @@ import { Button } from "../ui/button";
 import productImg from "../../assets/product.png";
 import computerImg from "../../assets/computer.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import company1 from "../../assets/company1.png";
+import company2 from "../../assets/company2.png";
+import company3 from "../../assets/company3.png";
+import company4 from "../../assets/company4.png";
+import company5 from "../../assets/company5.png";
+import company6 from "../../assets/company6.png";
+import company7 from "../../assets/company7.png";
+import company8 from "../../assets/company8.png";
 
 function Product() {
   const controls = useAnimation();
@@ -98,46 +106,14 @@ function Product() {
               </p>
               <div>
                 <div className="flex items-center gap-8 flex-wrap mt-4">
-                  <img
-                    src="/src/assets/company1.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company2.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company3.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company4.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company5.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company6.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company7.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
-                  <img
-                    src="/src/assets/company8.png"
-                    alt=""
-                    className="size-8 text-neutralDGrey"
-                  />
+                  <img src={company1} alt="" className="size-8" />
+                  <img src={company2} alt="" className="size-8" />
+                  <img src={company3} alt="" className="size-8" />
+                  <img src={company4} alt="" className="size-8" />
+                  <img src={company5} alt="" className="size-8" />
+                  <img src={company6} alt="" className="size-8" />
+                  <img src={company7} alt="" className="size-8" />
+                  <img src={company8} alt="" className="size-8" />
                   <div className="flex items-center gap-2">
                     <a href="/" className="font-bold hover:text-neutral-700">
                       See all

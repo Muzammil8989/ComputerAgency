@@ -28,8 +28,8 @@ function Fotter() {
   };
 
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto">
-      <Footer container>
+    <div className="">
+      <Footer container className=" dark:bg-blue-800">
         <motion.div
           className="w-full"
           initial="hidden"

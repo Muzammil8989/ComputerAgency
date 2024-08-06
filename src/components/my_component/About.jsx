@@ -5,6 +5,7 @@ import { PiClubBold } from "react-icons/pi";
 import { MdOutlinePayment } from "react-icons/md";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { FaUsers } from "react-icons/fa6";
+
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 

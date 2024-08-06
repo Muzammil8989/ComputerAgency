@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 import { FaBuildingColumns, FaUsersLine } from "react-icons/fa6";
 import { GiClubs } from "react-icons/gi";
+import company1 from "../../assets/company1.png";
+import company2 from "../../assets/company2.png";
+import company3 from "../../assets/company3.png";
+import company4 from "../../assets/company4.png";
+import company5 from "../../assets/company5.png";
+import company6 from "../../assets/company6.png";
+import company7 from "../../assets/company7.png";
+import company8 from "../../assets/company8.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -87,14 +95,14 @@ function Services() {
           variants={textVariants}
           className="my-12 flex flex-wrap justify-between items-center gap-8 Services_img"
         >
-          <img src="/src/assets/company1.png" alt="" className="size-20" />
-          <img src="/src/assets/company2.png" alt="" className="size-20" />
-          <img src="/src/assets/company3.png" alt="" className="size-20" />
-          <img src="/src/assets/company4.png" alt="" className="size-20" />
-          <img src="/src/assets/company5.png" alt="" className="size-20" />
-          <img src="/src/assets/company6.png" alt="" className="size-20" />
-          <img src="/src/assets/company7.png" alt="" className="size-20" />
-          <img src="/src/assets/company8.png" alt="" className="size-20" />
+          <img src={company1} alt="" className="size-20" />
+          <img src={company2} alt="" className="size-20" />
+          <img src={company3} alt="" className="size-20" />
+          <img src={company4} alt="" className="size-20" />
+          <img src={company5} alt="" className="size-20" />
+          <img src={company6} alt="" className="size-20" />
+          <img src={company7} alt="" className="size-20" />
+          <img src={company8} alt="" className="size-20" />
         </motion.div>
 
         <motion.div
